@@ -1,0 +1,32 @@
+<div class="container-fluid">
+  <div class="header">
+    <h1> University of Pennsylvania Summer League </h1>
+  </div>
+  <div class="main-text">
+    <p> UPSL is the official League of Legends tournament sponsored
+    by UPenn's student run League of Legends club. All registered players
+    are drafted into teams of at least 6 members (5 starters and 1 or more subs) to compete all summer long for the right to be crowned the best of
+    the noobs. 
+    </p>
+  </div>
+  </br>
+  <div class="text-center">
+    <h2 style="color:#CD2626"> Upcoming Match </h2>
+  </div>
+
+  <div class="container-fluid text-center">      
+    <table class="schedule table table-responsive">
+      <tr class="text-center" ng-repeat="match in week.matches">
+        <td class="col-sm-3"><h3> {{match.team1}} </h3></td>
+        <td class="col-sm-3 vs-icon"> 
+          <img style="width:80px;height:80px" src="/images/vs.png">
+          </br>
+          <h4> {{match.date}} </h4> 
+          <h4> {{match.time}} </h4>
+        </td>
+        <td class="col-sm-3"><h3> {{match.team2}} </h3></td>
+      </tr>
+    </table>
+  </div> 
+
+</div>
