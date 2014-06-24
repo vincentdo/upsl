@@ -1,32 +1,63 @@
-<div class="container-fluid">
-  <div class="header">
-    <h1> University of Pennsylvania Summer League </h1>
-  </div>
-  <div class="main-text">
-    <p> UPSL is the official League of Legends tournament sponsored
-    by UPenn's student run League of Legends club. All registered players
-    are drafted into teams of at least 6 members (5 starters and 1 or more subs) to compete all summer long for the right to be crowned the best of
-    the noobs. 
-    </p>
-  </div>
-  </br>
-  <div class="text-center">
-    <h2 style="color:#CD2626"> Upcoming Match </h2>
-  </div>
-
-  <div class="container-fluid text-center">      
-    <table class="schedule table table-responsive">
-      <tr class="text-center" ng-repeat="match in week.matches">
-        <td class="col-sm-3"><h3> {{match.team1}} </h3></td>
-        <td class="col-sm-3 vs-icon"> 
-          <img style="width:80px;height:80px" src="/images/vs.png">
-          </br>
-          <h4> {{match.date}} </h4> 
-          <h4> {{match.time}} </h4>
-        </td>
-        <td class="col-sm-3"><h3> {{match.team2}} </h3></td>
-      </tr>
-    </table>
-  </div> 
-
+<div name="image-wrapper">
+  <img src="/images/logo.jpg" style="width:100%;">
 </div>
+
+<div class="container-fluid" id="faq" name="faq">
+
+  <h2 class="centered text-center">INFO</h2>
+  <hr>
+  <div class="container">
+  <div class="row">    
+    <div class="col-lg-offset-1 col-lg-10">
+      <div class="qa">
+        <h2>What</h2>
+        <p>         
+          UPSL is the official League of Legends tournament sponsored
+          by UPenn's student run League of Legends club. All registered players are drafted into teams of at least 6 members (5 starters and 1 or more subs) to compete all summer long.
+        </p>
+      </div>
+      <div class="qa">
+        <h2>Format</h2>
+        <p> 
+          The format will be round-robin group stage qualifiers. The top teams from qualifiers will move on to the knock-out plays-off.
+        </p>
+      </div>
+      <div class="qa">
+        <h2>Prizes</h2>
+        <p>TBA</p>
+      </div>
+      <div class="qa">
+        <h2>Location</h2>
+        <p>
+          Wherever you can get an internet connection!
+        </p>
+      </div>        
+    </div><!-- col-lg -->
+  </div><!-- row -->
+</div>
+</div>
+
+<br>
+<br>
+<div class="container-fluid text-center" id="upcoming-match">
+  <h2 style="color:#CD2626"> Upcoming Match </h2>     
+  <table class="schedule table table-responsive">
+    <tr class="text-center" ng-repeat="match in week.matches">
+      <td class="col-sm-3"><h3> {{match.team1}} </h3></td>
+      <td class="col-sm-3 vs-icon"> 
+        <img style="width:80px;height:80px" src="/images/vs.png">
+        </br>
+        <h4> {{match.date}} </h4> 
+        <h4> {{match.time}} </h4>
+      </td>
+      <td class="col-sm-3"><h3> {{match.team2}} </h3></td>
+    </tr>
+  </table>
+</div>
+
+<div id="footerwrap">
+  <div class="container">
+    <h4>Created by Vincent Do for UPSL - Copyright 2014</h4>
+  </div>
+</div> 
+

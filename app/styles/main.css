@@ -1,7 +1,24 @@
 /* Space out content a bit */
+html {
+  height: 100%;
+}
+
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  height: 100%;
+  padding-top: 50px;
+}
+
+#footerwrap {
+  position: relative;
+  height: 50px;
+  line-height: 60px;
+  margin: 0 auto;
+  background: black;
+  margin-top: 0px;
+  border-bottom: 1px solid #ddd;
+  color: gray;
+  vertical-align: middle;
+  text-align: center;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -29,9 +46,9 @@ body {
 }
 
 /* Custom page header */
-.header {
+/*.header {
   border-bottom: 1px solid #e5e5e5;
-}
+}*/
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
   margin-top: 0;
