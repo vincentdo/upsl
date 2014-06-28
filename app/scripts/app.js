@@ -21,6 +21,10 @@ angular
         templateUrl: 'views/schedule.html',
         controller: 'ScheduleController'
       })
+      .when('/actions', {
+        templateUrl: 'views/actions.html',
+        controller: 'ActionsController'
+      })
       .otherwise({
         redirectTo: '/'
       });
