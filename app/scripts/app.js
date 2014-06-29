@@ -25,6 +25,9 @@ angular
         templateUrl: 'views/actions.html',
         controller: 'ActionsController'
       })
+      .when('/analysis', {
+        templateUrl: 'views/gameAnalysis.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
