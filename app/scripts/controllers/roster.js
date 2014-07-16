@@ -350,6 +350,136 @@ angular.module('upslApp')
             Price:"$1"
           }      
         ]
-      } 
+      },
+      {
+        name: "INSERT TEAM NAME HERE (ITNH)",
+        members: [
+          {
+            PlayerName:"Patrick Vinh",
+            SummonerName:"vinhfx",
+            ELO:2096,
+            PrimaryRole:"Jungle",
+            SecondaryRole:"ADC",
+            Price:"CAPTAIN"
+          },
+          {
+            PlayerName:"Sam Raper",
+            SummonerName:"sRaper",
+            ELO:2080,
+            PrimaryRole:"Mid",
+            SecondaryRole:"ADC",
+            Price:"NA"
+          },
+          {
+            PlayerName:"Jay Jung",
+            SummonerName:"iBisu",
+            ELO:1990,
+            PrimaryRole:"ADC",
+            SecondaryRole:"Support",
+            Price:"NA"
+          },
+          {
+            PlayerName:"Fan Yin",
+            SummonerName:"Conservex",
+            ELO:1854,
+            PrimaryRole:"ADC",
+            SecondaryRole:"Top",
+            Price:"NA"
+          },
+          {
+            PlayerName:"Andrew Bivin",
+            SummonerName:"Imaslapyou",
+            ELO:1577,
+            PrimaryRole:"ADC",
+            SecondaryRole:"Mid",
+            Price:"NA"
+          },
+          {
+            PlayerName:"Alex Hoffman",
+            SummonerName:"FunkyKitten",
+            ELO:1570,
+            PrimaryRole:"Mid",
+            SecondaryRole:"Not Reported",
+            Price:"NA"
+          },
+          {
+            PlayerName:"Mike Boyce",
+            SummonerName:"Nexialist",
+            ELO:1384,
+            PrimaryRole:"Support",
+            SecondaryRole:"Top",
+            Price:"NA"
+          },
+          {
+            PlayerName:"Eric Jiang",
+            SummonerName:"Sore and Nyx",
+            ELO:1200,
+            PrimaryRole:"Jungle",
+            SecondaryRole:"ADC",
+            Price:"NA"
+          }
+        ]
+      },
+      {
+        name: "Wood V Tier",
+        members: [
+          {
+            PlayerName:"Jason Kong",
+            SummonerName:"Kongfucius",
+            ELO:"2301",
+            PrimaryRole:"ADC",
+            SecondaryRole:"Not Reported",
+            Price:"NA"
+          },
+          {
+            PlayerName:"Stephen Pettyjohn",
+            SummonerName:"takkelete",
+            ELO:"2022",
+            PrimaryRole:"ADC",
+            SecondaryRole:"Support",
+            Price:"NA"
+          },
+          {
+            PlayerName:"John Gallagher",
+            SummonerName:"thegaminator",
+            ELO:"1855",
+            PrimaryRole:"Mid",
+            SecondaryRole:"Top",
+            Price:"NA"
+          },
+          {
+            PlayerName:"Young An",
+            SummonerName:"SUPER FEDER NA",
+            ELO:"1745",
+            PrimaryRole:"ADC",
+            SecondaryRole:"Jungle",
+            Price:"NA"
+          },
+          {
+            PlayerName:"Jeff Cho",
+            SummonerName:"InfiniteTides",
+            ELO:"1550",
+            PrimaryRole:"Top",
+            SecondaryRole:"Jungle",
+            Price:"NA"
+          },
+          {
+            PlayerName:"Derrick High",
+            SummonerName:"Vocalyze",
+            ELO:"1453",
+            PrimaryRole:"ADC",
+            SecondaryRole:"Support",
+            Price:"NA"
+          },
+          {
+            PlayerName:"Vivek Menon",
+            SummonerName:"MrPhenomenon",
+            ELO:"1236",
+            PrimaryRole:"Top",
+            SecondaryRole:"Jungle",
+            Price:"CAPTAIN"
+          }
+        ]
+      }
     ];
   });

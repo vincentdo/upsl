@@ -28,6 +28,9 @@ angular
       .when('/analysis', {
         templateUrl: 'views/gameAnalysis.html'
       })
+      .when('/playoffs', {
+        templateUrl: 'views/playoffs.html'
+      })
       .otherwise({
         redirectTo: '/'
       });
