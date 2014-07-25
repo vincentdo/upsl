@@ -1,12 +1,15 @@
 'use strict';
 
+// Parse.initialize("OeaMN5nXQDa5gEy2w18ZCd2nu1rwMiTCbiA8hH5b", "EJlzZ9KVTnWOFxoE1DerRBYWj5pMIHyjDVoRDfIM");
+
 angular
   .module('upslApp', [
     'ngCookies',
     'ngResource',
     'ngSanitize',
-    'ngRoute'
-  ])
+    'ngRoute',
+    'firebase'
+  ])  
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
@@ -35,3 +38,5 @@ angular
         redirectTo: '/'
       });
   });
+
+

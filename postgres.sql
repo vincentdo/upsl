@@ -3,20 +3,21 @@ Drop Table Teams;
 Drop Table Games;
 
 Create Table Players (
-  varchar(64)   playerName,
-  varchar(128)  summonerName,
-  boolean       captain,
-  int           elo,
-  varchar(64)   primaryRole,
-  varchar(64)   secondaryRole,
-  varchar(64)   team references Teams(name)
+  playerName    varchar(64) primary key not null,
+  summonerName  varchar(128),
+  captain       boolean,
+  elo           int,
+  primaryRole   varchar(64),
+  secondaryRole varchar(64),
+  team          varchar(64) references Teams(name)
 );
 
 Create Table Teams (
-  varchar(120) name,
+  name varchar(120) primary key not null,
 );
 
 Create Table Games (
+  int          id primary key not null,
   varchar(128) team1 references Teams(name),
   varchar(128) team2 references Teams(name),
   Date         gameDate,

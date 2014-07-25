@@ -11,34 +11,34 @@
             <th>Rank</th>
             <th>Primary Role</th>
             <th>Secondary Role</th>
-            <!-- <th>Draft Price</th> -->
+            <!-- <th>Draft price</th> -->
           </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="member in team.members | orderBy:'-ELO'">
+          <tr ng-repeat="member in team.members | orderBy:'-elo'">
             <td> 
-              {{member.PlayerName}}
-              <img class="captain" src="/images/captain.png" ng-if="member.Price == 'CAPTAIN'">
+              {{member.playerName}}
+              <img class="captain" src="/images/captain.png" ng-if="member.price == 'CAPTAIN'">
             </td>
-            <td><a href="http://na.op.gg/summoner/userName={{member.SummonerName}}">{{member.SummonerName}}</a></td>
-            <td class="rank-icon" ng-if="member.ELO < 1150"> 
+            <td><a href="http://na.op.gg/summoner/userName={{member.summonerName}}">{{member.summonerName}}</a></td>
+            <td class="rank-icon" ng-if="member.elo < 1150"> 
               <img src="/images/bronze.png">
             </td>
-            <td class="rank-icon" ng-if="member.ELO >= 1150 && member.ELO < 1500"> 
+            <td class="rank-icon" ng-if="member.elo >= 1150 && member.elo < 1500"> 
               <img src="/images/silver.png">
             </td>
-            <td class="rank-icon" ng-if="member.ELO >= 1500 && member.ELO < 1850"> 
+            <td class="rank-icon" ng-if="member.elo >= 1500 && member.elo < 1850"> 
               <img src="/images/gold.png">
             </td>
-            <td class="rank-icon" ng-if="member.ELO >= 1850 && member.ELO < 2200"> 
+            <td class="rank-icon" ng-if="member.elo >= 1850 && member.elo < 2200"> 
               <img src="/images/platinum.png">
             </td>
-            <td class="rank-icon" ng-if="member.ELO > 2200"> 
+            <td class="rank-icon" ng-if="member.elo > 2200"> 
               <img src="/images/diamond.png">
             </td>
-            <td> {{member.PrimaryRole}}</td>
-            <td> {{member.SecondaryRole}}</td>
-            <!-- <td> {{member.Price}}</td> -->
+            <td> {{member.primaryRole}}</td>
+            <td> {{member.secondaryRole}}</td>
+            <!-- <td> {{member.price}}</td> -->
           </tr>
         </tbody>
       </table>
