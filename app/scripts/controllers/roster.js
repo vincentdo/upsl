@@ -426,7 +426,7 @@ angular.module('upslApp')
           {
             PlayerName:"Jason Kong",
             SummonerName:"Kongfucius",
-            ELO:"2301",
+            ELO:2301,
             PrimaryRole:"ADC",
             SecondaryRole:"Not Reported",
             Price:"NA"
@@ -434,7 +434,7 @@ angular.module('upslApp')
           {
             PlayerName:"Stephen Pettyjohn",
             SummonerName:"takkelete",
-            ELO:"2022",
+            ELO:2022,
             PrimaryRole:"ADC",
             SecondaryRole:"Support",
             Price:"NA"
@@ -442,7 +442,7 @@ angular.module('upslApp')
           {
             PlayerName:"John Gallagher",
             SummonerName:"thegaminator",
-            ELO:"1855",
+            ELO:1855,
             PrimaryRole:"Mid",
             SecondaryRole:"Top",
             Price:"NA"
@@ -450,7 +450,7 @@ angular.module('upslApp')
           {
             PlayerName:"Young An",
             SummonerName:"SUPER FEDER NA",
-            ELO:"1745",
+            ELO:1745,
             PrimaryRole:"ADC",
             SecondaryRole:"Jungle",
             Price:"NA"
@@ -458,7 +458,7 @@ angular.module('upslApp')
           {
             PlayerName:"Jeff Cho",
             SummonerName:"InfiniteTides",
-            ELO:"1550",
+            ELO:1550,
             PrimaryRole:"Top",
             SecondaryRole:"Jungle",
             Price:"NA"
@@ -466,7 +466,7 @@ angular.module('upslApp')
           {
             PlayerName:"Derrick High",
             SummonerName:"Vocalyze",
-            ELO:"1453",
+            ELO:1453,
             PrimaryRole:"ADC",
             SecondaryRole:"Support",
             Price:"NA"
@@ -474,7 +474,7 @@ angular.module('upslApp')
           {
             PlayerName:"Vivek Menon",
             SummonerName:"MrPhenomenon",
-            ELO:"1236",
+            ELO:1236,
             PrimaryRole:"Top",
             SecondaryRole:"Jungle",
             Price:"CAPTAIN"
