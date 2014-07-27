@@ -35,6 +35,9 @@ angular
       .when('/playoffs', {
         templateUrl: 'views/playoffs.html'
       })
+      .when('/profile', {
+        templateUrl: 'views/profile.html',
+      })
       .otherwise({
         redirectTo: '/'
       });

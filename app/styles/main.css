@@ -16,7 +16,7 @@ input {
   margin-bottom: 0;
 }
 
-.panel-heading:hover {
+.panel-default > .panel-heading:hover {
   background-color: #D3D3D3;
 }
 
