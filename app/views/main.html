@@ -1,10 +1,13 @@
-<div name="image-wrapper">
+<div id="splash-wrapper">
   <img src="/images/logo.jpg" style="width:100%;">
 </div>
 
 <div class="container-fluid" id="info" name="info">
 
-  <h2 class="centered text-center">INFO</h2>
+  <div name="register" class="text-center" ng-controller="RegisterModalController">
+     <button style="font-size:25px" class="btn btn-lg btn-danger" ng-click="open()">Register</button>
+  </div>
+
   <hr>
   <div class="container">
   <div class="row">    

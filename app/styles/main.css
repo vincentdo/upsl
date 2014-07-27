@@ -8,6 +8,22 @@ body {
   padding-top: 50px;
 }
 
+input {
+  line-height: 40px;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.panel-heading:hover {
+  background-color: #D3D3D3;
+}
+
+#splash-wrapper {
+  padding-bottom: 30px;
+}
+
 #footerwrap {
   position: relative;
   height: 50px;

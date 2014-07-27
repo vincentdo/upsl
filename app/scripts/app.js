@@ -8,13 +8,14 @@ angular
     'ngResource',
     'ngSanitize',
     'ngRoute',
-    'firebase'
+    'firebase',
+    'ui.bootstrap'
   ])  
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainController'
+        templateUrl: 'views/main.html'
+        // controller: 'Demo'
       })
       .when('/roster', {
         templateUrl: 'views/roster.html',
