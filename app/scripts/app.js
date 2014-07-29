@@ -9,7 +9,8 @@ angular
     'ngSanitize',
     'ngRoute',
     'firebase',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'ui.bootstrap.datetimepicker'
   ])  
   .config(function ($routeProvider) {
     $routeProvider
@@ -36,7 +37,10 @@ angular
         templateUrl: 'views/playoffs.html'
       })
       .when('/profile', {
-        templateUrl: 'views/profile.html',
+        templateUrl: 'views/profile.html'
+      })
+      .when('/registergame', {
+        templateUrl: 'views/registerGame.html'
       })
       .otherwise({
         redirectTo: '/'
